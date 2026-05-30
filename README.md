@@ -1,18 +1,15 @@
 # Donatov.net Clone
 
-Fullstack project: Next.js 15 (Frontend) + NestJS (Backend)
-
-## Structure
-- `/frontend` - Next.js 15 App Router
-- `/backend` - NestJS + Prisma
-- `/docker-compose.yml` - Full stack setup
+Full-stack clone of donatov.net using Next.js 15 + NestJS + PostgreSQL.
 
 ## Tech Stack
-- Frontend: Next.js 15, TypeScript, Redux Toolkit, CSS Modules
-- Backend: NestJS, PostgreSQL, Prisma
-- Docker + docker-compose
 
-## Getting Started
-1. Clone the repo
-2. Run `docker-compose up -d`
-3. Follow setup instructions in each folder.
+**Frontend:** Next.js 15 (App Router), TypeScript, Redux Toolkit, CSS Modules, Dark Theme
+**Backend:** NestJS, TypeScript, Prisma, PostgreSQL
+**DevOps:** Docker + docker-compose
+
+## How to run
+
+1. Clone repo
+2. `docker-compose up -d`
+3. Open http://localhost:3000
