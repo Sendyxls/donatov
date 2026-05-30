@@ -15,7 +15,7 @@ services:
   backend:
     build: ./backend
     ports:
-      - "5000:5000"
+      - "3001:3001"
     environment:
       DATABASE_URL: postgresql://postgres:postgres@postgres:5432/donatov
       JWT_SECRET: supersecretkey
