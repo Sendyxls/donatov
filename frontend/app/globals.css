@@ -1,0 +1,26 @@
+/* frontend/app/globals.css */
+:root {
+  /* Основные цвета donatov.net */
+  --primary: #00b140;           /* Зеленый акцент */
+  --primary-dark: #009933;
+  --accent: #ff9900;            /* Оранжевый */
+  --bg: #0a0a0a;
+  --bg-secondary: #121212;
+  --bg-card: #1a1a1a;
+  --text: #ffffff;
+  --text-secondary: #aaaaaa;
+  --border: #333333;
+  --success: #00b140;
+  --danger: #ff4444;
+  --warning: #ffaa00;
+}
+
+/* Светлая тема (если понадобится) */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --bg-card: #ffffff;
+  --text: #1a1a1a;
+  --text-secondary: #666666;
+  --border: #e0e0e0;
+}
